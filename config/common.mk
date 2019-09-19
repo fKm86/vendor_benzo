@@ -1,12 +1,13 @@
 # Benzo Rom 
 #
 PRODUCT_PACKAGE_OVERLAYS += vendor/benzo/overlay
+
 # Inherit art options
 include vendor/benzo/config/art.mk
 
-# Theme Picker
+# Extra packages
 PRODUCT_PACKAGES += \
-    ThemePicker
+    OmniJaws
 
 # Props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
