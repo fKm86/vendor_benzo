@@ -7,7 +7,8 @@ include vendor/benzo/config/art.mk
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    OmniJaws
+    OmniJaws \
+    WeatherIcons
 
 # Props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
