@@ -20,10 +20,10 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=crosshatch \
-    PRIVATE_BUILD_DESC="crosshatch-user 10 QP1A.190711.020 5800535 release-keys"
+    PRIVATE_BUILD_DESC="crosshatch-user 10 QP1A.190711.020.C3 5869620 release-keys"
 
-BUILD_FINGERPRINT="google/crosshatch/crosshatch:10/QP1A.190711.020/5800535:user/release-keys"
-BUILD_THUMBPRINT="10/QP1A.190711.020/5800535:user/release-keys"
+BUILD_FINGERPRINT="google/crosshatch/crosshatch:10/QP1A.190711.020.C3/5869620:user/release-keys"
+BUILD_THUMBPRINT="10/QP1A.190711.020.C3/5869620:user/release-keys"
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
