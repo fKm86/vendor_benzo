@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/benzo/prebuilt/product/fonts/ZillaSlab-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ZillaSlab-Medium.ttf \
     vendor/benzo/prebuilt/product/fonts/ZillaSlab-SemiBoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ZillaSlab-SemiBoldItalic.ttf \
     vendor/benzo/prebuilt/product/fonts/ZillaSlab-SemiBold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ZillaSlab-SemiBold.ttf
+PRODUCT_PACKAGES += \
+    FontArbutusSourceOverlay \
+    FontArvoLatoOverlay \
+    FontRubikRubikOverlay
 
 # Use ccache
 USE_CCACHE := true
