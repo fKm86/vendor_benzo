@@ -44,7 +44,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
-    FontRubikRubikOverlay
+    FontRubikRubikOverlay \
+    FontGoogleSansLatoOverlay \
+    FontGoogleSansOverlay
 
 # Use ccache
 USE_CCACHE := true
