@@ -7,16 +7,13 @@ include vendor/benzo/config/art.mk
 
 # Extra packages
 PRODUCT_PACKAGES += \
+    libjni_latinimegoogle \
     OmniJaws \
     WeatherIcons
 
 # Props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.selinux=1
-
-# LatinIME gesture lib
-PRODUCT_COPY_FILES += \
-    vendor/benzo/prebuilt/product/lib64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjni_latinimegoogle.so
 
 # Google fonts
 PRODUCT_COPY_FILES += \
