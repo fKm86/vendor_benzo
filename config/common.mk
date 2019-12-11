@@ -31,6 +31,12 @@ PRODUCT_COPY_FILES += \
     vendor/benzo/prebuilt/product/fonts/Lato-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Lato-MediumItalic.ttf \
     vendor/benzo/prebuilt/product/fonts/Lato-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Lato-Medium.ttf \
     vendor/benzo/prebuilt/product/fonts/Lato-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Lato-Regular.ttf \
+    vendor/benzo/prebuilt/product/fonts/NunitoSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NunitoSans-Bold.ttf \
+    vendor/benzo/prebuilt/product/fonts/NunitoSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NunitoSans-BoldItalic.ttf \
+    vendor/benzo/prebuilt/product/fonts/NunitoSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NunitoSans-Italic.ttf \
+    vendor/benzo/prebuilt/product/fonts/NunitoSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NunitoSans-Regular.ttf \
+    vendor/benzo/prebuilt/product/fonts/NunitoSans-SemiBoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NunitoSans-SemiBoldItalic.ttf \
+    vendor/benzo/prebuilt/product/fonts/NunitoSans-SemiBold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NunitoSans-SemiBold.ttf \
     vendor/benzo/prebuilt/product/fonts/Rubik-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-BoldItalic.ttf \
     vendor/benzo/prebuilt/product/fonts/Rubik-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-Bold.ttf \
     vendor/benzo/prebuilt/product/fonts/Rubik-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-Italic.ttf \
@@ -46,7 +52,8 @@ PRODUCT_PACKAGES += \
     FontArvoLatoOverlay \
     FontRubikRubikOverlay \
     FontGoogleSansLatoOverlay \
-    FontGoogleSansOverlay
+    FontGoogleSansOverlay \
+    FontNunitoSansOverlay
 
 # Use ccache
 USE_CCACHE := true
