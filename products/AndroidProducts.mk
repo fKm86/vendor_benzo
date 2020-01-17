@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/benzo_crosshatch.mk
+    $(LOCAL_DIR)/benzo_coral.mk
 
 COMMON_LUNCH_CHOICES := \
-    benzo_crosshatch-userdebug \
-    benzo_crosshatch-user \
-    benzo_crosshatch-eng
+    benzo_coral-userdebug \
+    benzo_coral-user \
+    benzo_coral-eng
