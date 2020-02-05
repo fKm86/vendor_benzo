@@ -23,10 +23,10 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=coral \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ1B.200105.004 6031802 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ1B.200205.002 6084387 release-keys"
 
-BUILD_FINGERPRINT="google/coral/coral:10/QQ1B.200105.004/6031802:user/release-keys"
-BUILD_THUMBPRINT="10/QQ1B.200105.004/6031802:user/release-keys"
+BUILD_FINGERPRINT="google/coral/coral:10/QQ1B.200205.002/6084387:user/release-keys"
+BUILD_THUMBPRINT="10/QQ1B.200205.002/6084387:user/release-keys"
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
