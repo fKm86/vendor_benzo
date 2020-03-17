@@ -37,10 +37,10 @@ PRODUCT_DEVICE := coral
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=coral \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ1B.200205.002 6084387 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200305.003 6156912 release-keys"
 
-BUILD_FINGERPRINT="google/coral/coral:10/QQ1B.200205.002/6084387:user/release-keys"
-BUILD_THUMBPRINT="10/QQ1B.200205.002/6084387:user/release-keys"
+BUILD_FINGERPRINT="google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys"
+BUILD_THUMBPRINT="10/QQ2A.200305.003/6156912:user/release-keys"
 
 # Copy over bootanimation.
 PRODUCT_COPY_FILES += \
